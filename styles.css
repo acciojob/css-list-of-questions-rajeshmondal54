@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .questions {
+    background-color: #f8fffe;
+    height: 50px;
+    margin-top: 20px;
+    padding: 15px;
+    max-width: 600px;
+    border-left: 8px solid green;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .questions p {
+    margin: 0;
+  }
+  
